@@ -7,7 +7,7 @@ spec:
  interval: 1m
  approvePlan: auto
  destroyResourcesOnDeletion: true
- path: /home/helmuser/gitops-repo/terraform/azure/storage-account
+ path: ./terraform/azure/storage-account
  sourceRef:
   kind: GitRepository
   name: flux-system
